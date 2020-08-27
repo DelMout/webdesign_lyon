@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\css",
+    "\\includes",
     "\\js"
   ],
-  "SelectedNode": "\\css\\bootstrap.css",
+  "SelectedNode": "\\style_min.css",
   "PreviewInSolutionExplorer": false
 }

@@ -18,6 +18,12 @@ a:hover {
     cursor: pointer;
 }
 
+.logo {
+    border-radius: 50%;
+    border: 2px solid #fcd265;
+}
+
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -94,7 +100,13 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-min.png");
     background-size: 280px 280px;
+   
 }
+
+/*.transpa::before {
+    background-color: dimgray;
+    opacity: 0.5;
+}*/
 
 .b-parallax {
     background-attachment: fixed;
@@ -132,7 +144,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(87, 87, 87, .8);
 }
 
 .d-bloc .a-btn:hover,
@@ -706,23 +718,23 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
-    color:white;
+    color:#575757;
 }
 
 .liens {
     margin: 20px auto auto auto;
     max-width: 400px;
-    color:#FFFFFF;
+    color:#575757;
 }
 
     .liens a {
-        color: #FFFFFF;
+        color: #575757;
     }
 
 h2 {
     font-size: 26px;
     line-height: 1.4em;
-    color:#000000;
+    color:#fcd265;
 }
 
 h3 {
@@ -739,7 +751,7 @@ h3 {
 }
 
 h1 {
-    color: #FFFFFF !important; /*h1 de page Contact*/
+    color: #575757 !important; /*h1 de page Contact*/
 }
 
 h4 {
@@ -752,11 +764,11 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF !important;
+    color: #575757 !important;
 }
 
 .black {
-    color: #000000 !important;
+    color: #ffffff !important;
 }
 
 .portfolio-thumb {
@@ -773,7 +785,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(242,224,176, 0.7);
+    background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -787,28 +799,28 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #632204;
+    background-color: #fcd265;
 }
 
 .tc-white {
-    color: #FFFFFF !important;
+    color: #575757 !important;
     font-size:18px;
    }
 
 .tc-black {
-    color: #000000 !important;
+    color: #fcd265 !important;
     font-size: 18px;
 }
 
     .btn-atomic-tangerine {
-    background: #632204;
-    color: #FFFFFF !important;
+    background: #fcd265;
+    color: #575757 !important;
 }
 
-.btn-atomic-tangerine:hover {
-    border:4px solid #FFFFFF;
-    color: #FFFFFF !important;
-}
+    .btn-atomic-tangerine:hover {
+    background: #f3976c !important;
+    color: #575757 !important;
+    }
 
 .ltc-white {
     color: #FFFFFF !important;
@@ -833,6 +845,7 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");   /*Motif points carrés dans bandeau en haut de page Contact*/
+    opacity:0.8;
 }
 
 .bg-lines-h2-bg {

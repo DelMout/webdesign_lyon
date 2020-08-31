@@ -20,7 +20,7 @@ a:hover {
 
 .logo {
     border-radius: 50%;
-    border: 2px solid #fcd265;
+    border: 2px solid #f3976c;
 }
 
 
@@ -97,16 +97,17 @@ a:hover {
     right: 0;
 }
 
+
+
+/*.transpa::after {
+    background-color: black;
+    opacity: 1;
+}*/
+
 .texture-paper::before {
     background: url("img/texture-min.png");
     background-size: 280px 280px;
-   
 }
-
-/*.transpa::before {
-    background-color: dimgray;
-    opacity: 0.5;
-}*/
 
 .b-parallax {
     background-attachment: fixed;
@@ -144,7 +145,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(87, 87, 87, .8);
+    color: rgba(60, 60, 60, .8);
 }
 
 .d-bloc .a-btn:hover,
@@ -662,7 +663,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757;
+    color: #424242;
 }
 
 .container {
@@ -718,23 +719,23 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
-    color:#575757;
+    color:#424242;
 }
 
 .liens {
     margin: 20px auto auto auto;
     max-width: 400px;
-    color:#575757;
+    color:#424242;
 }
 
     .liens a {
-        color: #575757;
+        color: #424242;
     }
 
 h2 {
     font-size: 26px;
     line-height: 1.4em;
-    color:#fcd265;
+    color:#f3976c;
 }
 
 h3 {
@@ -751,7 +752,7 @@ h3 {
 }
 
 h1 {
-    color: #575757 !important; /*h1 de page Contact*/
+    color: #ffffff !important; /*h1 de page Contact*/
 }
 
 h4 {
@@ -764,7 +765,7 @@ h4 {
 }
 
 .white {
-    color: #575757 !important;
+    color: #424242 !important;
 }
 
 .black {
@@ -785,7 +786,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(87, 70, 63, 0.6);
     padding: 40px 40px 40px 40px;
 }
 
@@ -799,27 +800,27 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #fcd265;
+    background-color: #f3976c;
 }
 
 .tc-white {
-    color: #575757 !important;
+    color: #ffffff !important;
     font-size:18px;
    }
 
 .tc-black {
-    color: #fcd265 !important;
+    color: #f3976c !important;
     font-size: 18px;
 }
 
     .btn-atomic-tangerine {
-    background: #fcd265;
-    color: #575757 !important;
+    background: #f3976c;
+    color: #424242 !important;
 }
 
     .btn-atomic-tangerine:hover {
-    background: #f3976c !important;
-    color: #575757 !important;
+    background: #f8c3aa !important;
+    color: #424242 !important;
     }
 
 .ltc-white {
@@ -845,7 +846,7 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");   /*Motif points carrés dans bandeau en haut de page Contact*/
-    opacity:0.8;
+    
 }
 
 .bg-lines-h2-bg {
@@ -853,7 +854,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere_min.jpg");
+    background-image: url("img/la-chouette-agence-banniere_sombre.jpg");
 }
 
 .bg-presentation {

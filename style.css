@@ -328,6 +328,10 @@ a:hover {
     margin: 0;
 }
 
+.navbar-brand:focus{
+    border:1px dashed #424242;
+}
+
 .navbar .nav {
     padding-top: 2px;
     margin-right: -16px;
@@ -348,6 +352,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    font-weight:600;
 }
 
 .navbar-toggle {
@@ -471,7 +476,8 @@ nav .caret {
 .btn-d:focus {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
-}
+    }
+
 
 button {
     outline: none !important;
@@ -568,6 +574,12 @@ a[data-lightbox]:hover::before {
 }
 
 a[data-lightbox]:hover img {
+    opacity: 0.6;
+    -webkit-animation-fill-mode: none;
+    animation-fill-mode: none;
+}
+
+a[data-lightbox]:focus img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
@@ -824,7 +836,14 @@ h4 {
     .btn-atomic-tangerine:hover {
     background: #f8c3aa !important;
     color: #424242 !important;
+    transform:scale(1.1);
     }
+
+   .btn-atomic-tangerine:focus {
+   background: #f8c3aa !important;
+   color: #424242 !important;
+   transform: scale(1.1);
+   }
 
 .ltc-white {
     color: #FFFFFF !important;

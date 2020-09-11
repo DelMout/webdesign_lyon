@@ -98,12 +98,6 @@ a:hover {
 }
 
 
-
-/*.transpa::after {
-    background-color: black;
-    opacity: 1;
-}*/
-
 .texture-paper::before {
     background: url("img/texture.png");
     background-size: 280px 280px;
@@ -349,10 +343,17 @@ a:hover {
     text-align: inherit;
 }
 
+/*Liens du menu mis en gras audio survol details center focus*/
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
-    font-weight:600;
+    font-weight: 600;
+}
+
+
+/*Lien en gras lorsque la page du lien est active*/
+.active {
+    font-weight: 600;
 }
 
 .navbar-toggle {
@@ -828,22 +829,23 @@ h4 {
     font-size: 18pt;
 }
 
-    .btn-atomic-tangerine {
+/*Bouton contact*/
+.btn-atomic-tangerine {
     background: #f3976c;
     color: #424242 !important;
 }
 
-    .btn-atomic-tangerine:hover {
+.btn-atomic-tangerine:hover {
     background: #f8c3aa !important;
     color: #424242 !important;
     transform:scale(1.1);
-    }
+}
 
-   .btn-atomic-tangerine:focus {
+.btn-atomic-tangerine:focus {
    background: #f8c3aa !important;
    color: #424242 !important;
    transform: scale(1.1);
-   }
+}
 
 .ltc-white {
     color: #FFFFFF !important;
